@@ -83,7 +83,7 @@ const Mission = () => {
                 </div>
                 <div className="text-center">
                   <div className="bg-gradient-to-br from-ocean-deep to-ocean-abyss p-8 rounded-lg">
-                    <div className="text-6xl mb-4 animate-float">🌊</div>
+                    <div className="text-6xl mb-4">🌊</div>
                     <h3 className="text-xl font-bold text-ocean-surface mb-2">Primera Vez en Argentina</h3>
                     <p className="text-ocean-shallow text-sm">ROV de última generación explorando el Atlántico Sudoccidental</p>
                   </div>
@@ -102,8 +102,7 @@ const Mission = () => {
             {objectives.map((objective, index) => (
               <Card 
                 key={index} 
-                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500 animate-float"
-                style={{ animationDelay: `${index * 0.2}s` }}
+                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500"
               >
                 <CardContent className="p-6">
                   <div className="text-center mb-4">

@@ -39,10 +39,9 @@ const CreatureCard = ({ creature }: CreatureCardProps) => {
 
   return (
     <Card 
-      className="group relative overflow-hidden bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500 animate-float"
+      className="group relative overflow-hidden bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      style={{ animationDelay: `${creature.id * 0.2}s` }}
     >
       <div className="relative h-48 overflow-hidden">
         <img

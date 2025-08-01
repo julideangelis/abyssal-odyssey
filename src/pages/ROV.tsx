@@ -60,7 +60,7 @@ const ROV = () => {
             <CardContent className="p-0">
               <div className="relative h-96 bg-gradient-to-r from-ocean-deep to-ocean-abyss flex items-center justify-center">
                 <div className="text-center text-white">
-                  <div className="text-8xl mb-4 animate-float">🤖</div>
+                  <div className="text-8xl mb-4">🤖</div>
                   <h2 className="text-3xl font-bold mb-2">ROV SuBastian en Acción</h2>
                   <p className="text-ocean-surface">Explorando las profundidades del Cañón de Mar del Plata</p>
                 </div>
@@ -83,8 +83,7 @@ const ROV = () => {
             {specifications.map((spec, index) => (
               <Card 
                 key={index} 
-                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-accent/50 transition-all duration-500 animate-float"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-accent/50 transition-all duration-500"
               >
                 <CardContent className="p-6 text-center">
                   <div className="text-4xl mb-4 group-hover:animate-bounce">{spec.icon}</div>
@@ -105,8 +104,7 @@ const ROV = () => {
             {capabilities.map((capability, index) => (
               <Card 
                 key={index} 
-                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500 animate-float"
-                style={{ animationDelay: `${index * 0.2}s` }}
+                className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-500"
               >
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
@@ -150,7 +148,7 @@ const ROV = () => {
                 </div>
                 <div className="text-center">
                   <div className="bg-accent/10 p-6 rounded-lg mb-4">
-                    <div className="text-6xl mb-4 animate-float">🚢</div>
+                    <div className="text-6xl mb-4">🚢</div>
                     <div className="text-sm text-muted-foreground">R/V Falkor (too)</div>
                     <div className="text-lg font-bold text-accent">Buque de Investigación</div>
                   </div>

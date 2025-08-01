@@ -6,12 +6,29 @@ import { Play, Waves, ArrowRight, Users, Bot, Map } from "lucide-react";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-ocean-abyss via-ocean-deep to-background">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Ocean Deep Background with layers */}
+      <div className="absolute inset-0 bg-gradient-to-b from-ocean-abyss via-ocean-deep to-background" />
+      
+      {/* Underwater particles effect */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-10 left-10 w-2 h-2 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "0s"}} />
+        <div className="absolute top-20 right-20 w-1 h-1 bg-ocean-shallow/30 rounded-full animate-bubble" style={{animationDelay: "2s"}} />
+        <div className="absolute top-40 left-1/4 w-3 h-3 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "4s"}} />
+        <div className="absolute top-60 right-1/3 w-1 h-1 bg-accent/30 rounded-full animate-bubble" style={{animationDelay: "6s"}} />
+        <div className="absolute bottom-40 left-1/2 w-2 h-2 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "1s"}} />
+      </div>
+      
+      {/* Depth lines simulation */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-1/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-surface to-transparent" />
+        <div className="absolute top-2/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-shallow to-transparent" />
+        <div className="absolute top-3/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-medium to-transparent" />
+      </div>
+      
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 px-4">
-        <div className="absolute inset-0 opacity-10 animate-shimmer" />
-        
-        <div className="container mx-auto text-center relative z-10">
+      <section className="relative py-20 px-4 z-10">
+        <div className="container mx-auto text-center">
           <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">
             🔴 EN VIVO AHORA
           </Badge>
@@ -49,15 +66,15 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Floating animation elements */}
-        <div className="absolute top-1/4 left-10 text-4xl animate-float" style={{animationDelay: "0s"}}>🐙</div>
-        <div className="absolute top-1/3 right-16 text-3xl animate-float" style={{animationDelay: "1s"}}>⭐</div>
-        <div className="absolute bottom-1/4 left-1/4 text-5xl animate-float" style={{animationDelay: "2s"}}>🦑</div>
-        <div className="absolute bottom-1/3 right-1/4 text-3xl animate-float" style={{animationDelay: "3s"}}>🦀</div>
+        {/* Research station floating elements */}
+        <div className="absolute top-1/4 left-10 text-2xl opacity-60" style={{animationDelay: "0s"}}>🔬</div>
+        <div className="absolute top-1/3 right-16 text-3xl opacity-50" style={{animationDelay: "1s"}}>📊</div>
+        <div className="absolute bottom-1/4 left-1/4 text-2xl opacity-60" style={{animationDelay: "2s"}}>🧪</div>
+        <div className="absolute bottom-1/3 right-1/4 text-3xl opacity-50" style={{animationDelay: "3s"}}>📡</div>
       </section>
 
       {/* Live Stream Embed */}
-      <section className="py-16 px-4">
+      <section className="relative py-16 px-4 z-10">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
@@ -91,7 +108,7 @@ const Home = () => {
       </section>
 
       {/* Quick Navigation */}
-      <section className="py-16 px-4">
+      <section className="relative py-16 px-4 z-10">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
             Explora la Expedición
@@ -99,7 +116,7 @@ const Home = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link to="/creatures">
-              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300 animate-float" style={{animationDelay: "0s"}}>
+              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <div className="text-4xl mb-4 group-hover:animate-bounce">🦑</div>
                   <h3 className="text-xl font-bold mb-2 text-foreground">Criaturas Abisales</h3>
@@ -110,7 +127,7 @@ const Home = () => {
             </Link>
 
             <Link to="/scientists">
-              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300 animate-float" style={{animationDelay: "0.5s"}}>
+              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <Users className="h-12 w-12 mx-auto mb-4 text-primary group-hover:animate-pulse" />
                   <h3 className="text-xl font-bold mb-2 text-foreground">Equipo Científico</h3>
@@ -121,7 +138,7 @@ const Home = () => {
             </Link>
 
             <Link to="/rov">
-              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300 animate-float" style={{animationDelay: "1s"}}>
+              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <Bot className="h-12 w-12 mx-auto mb-4 text-accent group-hover:animate-pulse" />
                   <h3 className="text-xl font-bold mb-2 text-foreground">ROV SuBastian</h3>
@@ -132,7 +149,7 @@ const Home = () => {
             </Link>
 
             <Link to="/mission">
-              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300 animate-float" style={{animationDelay: "1.5s"}}>
+              <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <Map className="h-12 w-12 mx-auto mb-4 text-creature-coral group-hover:animate-pulse" />
                   <h3 className="text-xl font-bold mb-2 text-foreground">La Misión</h3>
@@ -146,22 +163,22 @@ const Home = () => {
       </section>
 
       {/* Statistics */}
-      <section className="py-16 px-4 bg-ocean-deep/20">
+      <section className="relative py-16 px-4 bg-ocean-deep/20 z-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="animate-float" style={{animationDelay: "0s"}}>
+            <div>
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2">3,900m</div>
               <div className="text-muted-foreground">Profundidad máxima</div>
             </div>
-            <div className="animate-float" style={{animationDelay: "0.5s"}}>
+            <div>
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2">30+</div>
               <div className="text-muted-foreground">Científicos argentinos</div>
             </div>
-            <div className="animate-float" style={{animationDelay: "1s"}}>
+            <div>
               <div className="text-3xl md:text-4xl font-bold text-creature-coral mb-2">20</div>
               <div className="text-muted-foreground">Días de expedición</div>
             </div>
-            <div className="animate-float" style={{animationDelay: "1.5s"}}>
+            <div>
               <div className="text-3xl md:text-4xl font-bold text-creature-purple mb-2">∞</div>
               <div className="text-muted-foreground">Descubrimientos</div>
             </div>

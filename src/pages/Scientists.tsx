@@ -77,8 +77,7 @@ const Scientists = () => {
           {scientists.map((scientist, index) => (
             <Card 
               key={index} 
-              className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-accent/50 transition-all duration-500 animate-float"
-              style={{ animationDelay: `${index * 0.2}s` }}
+              className="group bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-accent/50 transition-all duration-500"
             >
               <CardContent className="p-6">
                 <div className="space-y-4">
