@@ -52,18 +52,18 @@ export const creatures: CreatureData[] = [
     depth: "2,512 m",
     description: "Una raya bentónica con un patrón único de manchas que parecían estrellas sobre el dorso, lo cual maravilló a los investigadores. Representa la primera raya profunda registrada en esta campaña específica, mostrando las adaptaciones únicas de estos peces cartilaginosos a la vida abisal.",
     funFact: "Su patrón de manchas estrelladas es único en la región y podría tratarse de una especie aún no catalogada científicamente.",
-    imageUrl: "/src/assets/stellar-ray.jpg",
+    imageUrl: "/src/assets/stellar-ray.png",
     accentColor: "coral"
   },
   {
     id: 5,
-    nickname: "Pulpo Dumbo",
-    scientificName: "Grimpoteuthis sp.",
+    nickname: "Mama pulpo",
+    scientificName: "Muusoctopus sp.",
     group: "Cefalópodo",
-    depth: "2,427 m",
-    description: "Un pulpo abisal cuyas aletas laterales recuerdan inmediatamente las orejas del elefante Dumbo de Disney. Estos cefalópodos de profundidad han desarrollado aletas únicas que les permiten planear grácilmente por las aguas abisales, siendo una de las criaturas más carismáticas del océano profundo.",
-    funFact: "Sus 'orejas' son en realidad aletas especializadas que ondean constantemente, permitiéndole desplazarse con elegancia por el agua como si volara.",
-    imageUrl: "/src/assets/dumbo-octopus.jpg",
+    depth: "2,439 m",
+    description: "Hembra de pulpo abisal que protege un racimo de huevos grandes en una madriguera a casi 2,5 km de profundidad. Enrolla sus brazos en espiral alrededor de la puesta y los ventila sin descanso durante meses—o incluso años—hasta que las crías salgan completamente formadas.",
+  funFact: "Los pulpos del género Muusoctopus han perdido el saco de tinta porque carece de sentido en la oscuridad eterna del fondo; en vez de escapar con una nube de tinta, confían en el camuflaje y una incubación maratónica que puede ser la más larga del reino animal.",
+    imageUrl: "/src/assets/mamapulpo.png",
     accentColor: "purple"
   }
 ];
