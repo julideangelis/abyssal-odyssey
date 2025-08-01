@@ -2,39 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system - Ocean Deep Theme
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Ocean Deep Color Palette */
+    --background: 220 25% 8%;
+    --foreground: 200 20% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 20% 12%;
+    --card-foreground: 200 15% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 25% 10%;
+    --popover-foreground: 200 20% 85%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 195 100% 45%;
+    --primary-foreground: 220 25% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 30% 20%;
+    --secondary-foreground: 200 15% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 20% 15%;
+    --muted-foreground: 200 10% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 180 100% 35%;
+    --accent-foreground: 220 25% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 200 20% 85%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 215 20% 25%;
+    --input: 215 20% 18%;
+    --ring: 195 100% 45%;
+
+    /* Ocean-specific design tokens */
+    --ocean-surface: 195 100% 85%;
+    --ocean-shallow: 200 100% 65%;
+    --ocean-medium: 210 80% 45%;
+    --ocean-deep: 220 60% 25%;
+    --ocean-abyss: 230 40% 10%;
+    
+    /* Creature accent colors */
+    --creature-pink: 330 80% 70%;
+    --creature-purple: 270 65% 55%;
+    --creature-coral: 15 85% 65%;
+    
+    /* Gradients */
+    --gradient-ocean: linear-gradient(180deg, hsl(var(--ocean-surface)), hsl(var(--ocean-deep)));
+    --gradient-abyss: linear-gradient(135deg, hsl(var(--ocean-deep)), hsl(var(--ocean-abyss)));
+    --gradient-shimmer: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--primary)));
+    
+    /* Animations */
+    --wave-duration: 3s;
+    --float-duration: 6s;
+    --shimmer-duration: 2s;
 
     --radius: 0.5rem;
 
