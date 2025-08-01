@@ -7,16 +7,51 @@ import { Play, Waves, ArrowRight, Users, Bot, Map } from "lucide-react";
 const Home = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Ocean Deep Background with layers */}
-      <div className="absolute inset-0 bg-gradient-to-b from-ocean-abyss via-ocean-deep to-background" />
+      {/* Ocean Deep Background with progressive depth */}
+      <div className="absolute inset-0 bg-gradient-to-b from-ocean-surface/20 via-ocean-shallow/40 via-ocean-medium/60 via-ocean-deep to-ocean-abyss" />
       
-      {/* Underwater particles effect */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-10 left-10 w-2 h-2 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "0s"}} />
-        <div className="absolute top-20 right-20 w-1 h-1 bg-ocean-shallow/30 rounded-full animate-bubble" style={{animationDelay: "2s"}} />
-        <div className="absolute top-40 left-1/4 w-3 h-3 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "4s"}} />
-        <div className="absolute top-60 right-1/3 w-1 h-1 bg-accent/30 rounded-full animate-bubble" style={{animationDelay: "6s"}} />
-        <div className="absolute bottom-40 left-1/2 w-2 h-2 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "1s"}} />
+      {/* Progressive depth darkening overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-ocean-deep/30 via-ocean-abyss/50 to-background" />
+      
+      {/* Enhanced underwater bubbles animation */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Large bubbles */}
+        <div className="absolute top-10 left-10 w-4 h-4 bg-ocean-surface/60 rounded-full animate-bubble" style={{animationDelay: "0s", animationDuration: "8s"}} />
+        <div className="absolute top-20 right-20 w-3 h-3 bg-ocean-shallow/50 rounded-full animate-bubble" style={{animationDelay: "2s", animationDuration: "10s"}} />
+        <div className="absolute top-40 left-1/4 w-5 h-5 bg-primary/30 rounded-full animate-bubble" style={{animationDelay: "4s", animationDuration: "12s"}} />
+        <div className="absolute top-60 right-1/3 w-2 h-2 bg-accent/40 rounded-full animate-bubble" style={{animationDelay: "6s", animationDuration: "9s"}} />
+        <div className="absolute bottom-40 left-1/2 w-3 h-3 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "1s", animationDuration: "11s"}} />
+        
+        {/* Medium bubbles */}
+        <div className="absolute top-32 left-1/3 w-2 h-2 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "3s", animationDuration: "7s"}} />
+        <div className="absolute top-48 right-1/4 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{animationDelay: "5s", animationDuration: "9s"}} />
+        <div className="absolute top-80 left-3/4 w-2 h-2 bg-accent/35 rounded-full animate-bubble" style={{animationDelay: "7s", animationDuration: "8s"}} />
+        <div className="absolute bottom-60 right-1/2 w-4 h-4 bg-ocean-shallow/30 rounded-full animate-bubble" style={{animationDelay: "2.5s", animationDuration: "10s"}} />
+        
+        {/* Small bubbles */}
+        <div className="absolute top-16 left-1/5 w-1 h-1 bg-ocean-surface/30 rounded-full animate-bubble" style={{animationDelay: "1.5s", animationDuration: "6s"}} />
+        <div className="absolute top-36 right-1/5 w-1.5 h-1.5 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "4.5s", animationDuration: "7s"}} />
+        <div className="absolute top-56 left-2/3 w-1 h-1 bg-accent/25 rounded-full animate-bubble" style={{animationDelay: "6.5s", animationDuration: "5s"}} />
+        <div className="absolute top-72 right-3/4 w-2 h-2 bg-ocean-shallow/20 rounded-full animate-bubble" style={{animationDelay: "8s", animationDuration: "9s"}} />
+        <div className="absolute bottom-32 left-1/6 w-1 h-1 bg-ocean-surface/25 rounded-full animate-bubble" style={{animationDelay: "3.5s", animationDuration: "6s"}} />
+        <div className="absolute bottom-48 right-1/6 w-1.5 h-1.5 bg-primary/15 rounded-full animate-bubble" style={{animationDelay: "5.5s", animationDuration: "8s"}} />
+        
+        {/* Micro bubbles for atmosphere */}
+        <div className="absolute top-24 left-1/8 w-0.5 h-0.5 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "2.2s", animationDuration: "4s"}} />
+        <div className="absolute top-44 right-1/8 w-0.5 h-0.5 bg-accent/15 rounded-full animate-bubble" style={{animationDelay: "4.8s", animationDuration: "5s"}} />
+        <div className="absolute top-64 left-5/6 w-1 h-1 bg-primary/10 rounded-full animate-bubble" style={{animationDelay: "6.2s", animationDuration: "7s"}} />
+        <div className="absolute bottom-72 right-5/6 w-0.5 h-0.5 bg-ocean-shallow/15 rounded-full animate-bubble" style={{animationDelay: "7.8s", animationDuration: "6s"}} />
+        
+        {/* More bubbles throughout the page */}
+        <div className="absolute top-96 left-1/7 w-2 h-2 bg-ocean-surface/30 rounded-full animate-bubble" style={{animationDelay: "9s", animationDuration: "10s"}} />
+        <div className="absolute top-[30rem] right-1/7 w-1 h-1 bg-accent/20 rounded-full animate-bubble" style={{animationDelay: "11s", animationDuration: "8s"}} />
+        <div className="absolute top-[35rem] left-3/5 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{animationDelay: "13s", animationDuration: "12s"}} />
+        <div className="absolute top-[40rem] right-2/5 w-1.5 h-1.5 bg-ocean-shallow/25 rounded-full animate-bubble" style={{animationDelay: "15s", animationDuration: "9s"}} />
+        <div className="absolute top-[45rem] left-1/2 w-2 h-2 bg-accent/30 rounded-full animate-bubble" style={{animationDelay: "17s", animationDuration: "11s"}} />
+        <div className="absolute top-[50rem] right-1/3 w-1 h-1 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "19s", animationDuration: "7s"}} />
+        <div className="absolute top-[55rem] left-2/5 w-4 h-4 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "21s", animationDuration: "13s"}} />
+        <div className="absolute bottom-16 right-1/4 w-2 h-2 bg-accent/25 rounded-full animate-bubble" style={{animationDelay: "23s", animationDuration: "10s"}} />
+        <div className="absolute bottom-8 left-3/4 w-1 h-1 bg-ocean-shallow/20 rounded-full animate-bubble" style={{animationDelay: "25s", animationDuration: "8s"}} />
       </div>
       
       {/* Depth lines simulation */}
@@ -162,8 +197,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Statistics */}
-      <section className="relative py-16 px-4 bg-ocean-deep/20 z-10">
+      {/* Statistics - Deep Ocean Zone */}
+      <section className="relative py-16 px-4 bg-gradient-to-b from-ocean-abyss/40 to-background/90 z-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
