@@ -25,7 +25,7 @@ export const creatures: CreatureData[] = [
   {
     id: 2,
     nickname: "Batatita",
-    scientificName: "Benthodytes sp.",
+    scientificName: "Benthodytes violetta sp.",
     group: "Holoturia (pepino de mar)",
     depth: "2,576 m",
     description: "Un organismo de cuerpo ovalado color violeta intenso, parecido a una batata. Fue descubierto como nueva especie en 2014 por el biólogo Mariano Martínez a partir de muestras recolectadas en expediciones previas. En esta campaña se lo observó vivo por primera vez, causando la emotiva reacción del Dr. Martínez en plena transmisión.",
@@ -36,7 +36,7 @@ export const creatures: CreatureData[] = [
   {
     id: 3,
     nickname: "Langosta Barbie",
-    scientificName: "cf. Neolithodes sp.",
+    scientificName: "Thymops sp.",
     group: "Crustáceo decápodo",
     depth: "2,400 - 3,000 m",
     description: "Un crustáceo de un color rosa brillante que apareció sobre el lecho marino, apodado en broma 'la langosta Barbie' por los usuarios debido a su tono rosa furioso. Las imágenes ultra-HD permitieron apreciar detalles de sus extremidades y caparazón espinoso, típicos de adaptaciones a la vida en aguas profundas.",
@@ -47,7 +47,7 @@ export const creatures: CreatureData[] = [
   {
     id: 4,
     nickname: "Raya estrellada",
-    scientificName: "Rajidae indet.",
+    scientificName: "Amblyraja sp.",
     group: "Pez cartilaginoso",
     depth: "2,512 m",
     description: "Una raya bentónica con un patrón único de manchas que parecían estrellas sobre el dorso, lo cual maravilló a los investigadores. Representa la primera raya profunda registrada en esta campaña específica, mostrando las adaptaciones únicas de estos peces cartilaginosos a la vida abisal.",
@@ -81,7 +81,7 @@ export const creatures: CreatureData[] = [
     {
       id: 7,
       nickname: "Esponja Vampiro",
-      scientificName: "Cladorhizidae sp. (esponja carnívora)",
+      scientificName: "Cladorhizidae (esponja carnívora)",
       group: "Porífero",
       depth: "1,461 m",
       description: "No filtra agua como las esponjas comunes: atrapa pequeños crustáceos con filamentos pegajosos y luego los digiere lentamente.",
@@ -105,7 +105,7 @@ export const creatures: CreatureData[] = [
     {
       id: 9,
       nickname: "Coral Arcoíris",
-      scientificName: "Primnoidae sp. (coral de aguas frías fluorescente)",
+      scientificName: "Primnoidae (coral de aguas frías fluorescente)",
       group: "Cnidario",
       depth: "1,000 m",
       description: "Colonia arborescente que emite destellos verdosos bajo la luz del ROV, gracias a proteínas fluorescentes que protegen sus tejidos.",
