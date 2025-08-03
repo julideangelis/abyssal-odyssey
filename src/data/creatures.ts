@@ -68,13 +68,13 @@ export const creatures: CreatureData[] = [
   },
     {
       id: 6,
-      nickname: "Pez Telescopio",
-      scientificName: "Macropinna microstoma (barreleye) – identificación popular, pendiente confirmación oficial",
-      group: "Pez óseo abisal",
-      depth: "600 m  ",
-      description: "Viral por sus ojos tubulares que miran hacia arriba dentro de un cráneo transparente. El público creyó que lo ‘captó’ el ROV, aunque luego se aclaró que la imagen original era de otra expedición; de todos modos, el apodo quedó y la gente lo sigue esperando en pantalla.",
-      funFact: "Los barreleye pueden rotar sus ojos 90° dentro del domo gelatinoso para espiar presas que pasan sobre su cabeza.",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZYP9WKDiTiKuVNeQRXbfIdfvW5DRvMeY1g&s",
+      nickname: "Centolla Dragqueen",
+      scientificName: "Paralomis formosa (tentativo)",
+      group: "Crustáceo decápodo",
+      depth: "2,082 m",
+      description: "Centolla abisal de caparazón robusto y espinoso, cubierta por decenas de percebes blancos que crecen sobre sus patas como si fueran flores. Su andar imponente y decoración viva cautivaron a los espectadores del stream.",
+      funFact: "Las centollas de profundidad como esta pueden vivir más de 15 años y tolerar aguas muy frías. Los percebes que lleva encima se alimentan filtrando el agua mientras ella camina, formando una especie de ‘jardín móvil’ simbiótico.",
+      imageUrl: "https://pbs.twimg.com/media/GxKldLLW8AAfOJz?format=jpg&name=large",
       accentColor: "purple"
     },
   
