@@ -7,6 +7,7 @@ export interface ScientistData {
   description: string;
   highlight: string;
   profileLink?: string;
+  profilePhoto?: string;
 }
 
 export const scientists: ScientistData[] = [
@@ -228,7 +229,8 @@ export const scientists: ScientistData[] = [
     specialty: "Diversidad de corales marinos con ADN ambiental",
     description: "Aplica técnicas moleculares para identificar especies a partir de trazas genéticas en el agua. Clave en muestreos no invasivos.",
     highlight: "Detecta biodiversidad con análisis de ADN",
-    profileLink: "https://orcid.org/0000-0001-7204-9434"
+    profileLink: "https://orcid.org/0000-0001-7204-9434",
+    profilePhoto: "/src/assets/scientists/herrera.jpg"
   },
   {
     id: 23,

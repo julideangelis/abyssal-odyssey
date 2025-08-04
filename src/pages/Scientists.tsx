@@ -32,9 +32,17 @@ const Scientists = () => {
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-accent/20 p-3 rounded-full">
-                      <User className="h-6 w-6 text-accent" />
-                    </div>
+                                          {scientist.profilePhoto ? (
+                        <img 
+                          src={scientist.profilePhoto} 
+                          alt={scientist.name} 
+                          className="h-12 w-12 rounded-full object-cover bg-accent/20"
+                        />
+                      ) : (
+                        <div className="bg-accent/20 p-3 rounded-full">
+                          <User className="h-6 w-6 text-accent" />
+                        </div>
+                      )}
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-foreground mb-1">
                         {scientist.name}
