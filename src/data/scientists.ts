@@ -20,7 +20,7 @@ export const scientists: ScientistData[] = [
     description: "Lidera la expedición Talud Continental IV. Especialista en corales de profundidad y hábitats bentónicos vulnerables del Atlántico Sur.",
     highlight: "Coordinador general del equipo científico en la campaña 2025",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=23784&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/Lauretta.jpeg"
+    profilePhoto: "/scientists/lauretta.jpg"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia cómo los cangrejos y langostas de profundidad se adaptan a los cambios del entorno. Participa activamente en la caracterización de especies del talud.",
     highlight: "Especialista en adaptaciones al estrés ambiental",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=36320&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/ocampo.jpeg"
+    profilePhoto: "/scientists/ocampo.jpeg"
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const scientists: ScientistData[] = [
     description: "Doctorando dedicado a clasificar y estudiar corales escleractinios hallados en la expedición. Su trabajo permite comprender mejor los ecosistemas de profundidad.",
     highlight: "Documenta corales duros del Atlántico sur",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=67229&keywords=&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/calderon.jpg"
+    profilePhoto: "/scientists/calderon.jpg"
 },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const scientists: ScientistData[] = [
     description: "Investiga linajes antiguos de moluscos como los chitones, claves para entender la evolución y diversidad del fondo marino profundo.",
     highlight: "Especialista en chitones fósiles y modernos",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=34778&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/urteaga.jpg"
+    profilePhoto: "/scientists/urteaga.jpg"
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ export const scientists: ScientistData[] = [
     description: "Conocido por describir a 'Batatita', fue protagonista de uno de los momentos más emotivos de la expedición al verlo vivo por primera vez.",
     highlight: "Descubridor del icónico 'Batatita'",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=28314&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/martinez.jpg"
+    profilePhoto: "/scientists/martinez.jpg"
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const scientists: ScientistData[] = [
     description: "Trabaja en la identificación y clasificación de almejas de profundidad, aportando al registro biológico del Mar Argentino.",
     highlight: "Especialista en bivalvos abisales",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=54067&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pacheco.jpg"
+    profilePhoto: "/scientists/pacheco.jpg"
   },
   {
     id: 7,
@@ -86,7 +86,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia los lirios de mar (crinoideos) del talud, organismos clave para entender la estructura de la fauna bentónica.",
     highlight: "Especialista en crinoideos de profundidad",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=53571&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pertossi.jpg"
+    profilePhoto: "/scientists/pertossi.jpg"
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const scientists: ScientistData[] = [
     description: "Contribuye a la identificación de octocorales, sumando datos clave sobre su distribución en el Cañón de Mar del Plata.",
     highlight: "Investiga octocorales del talud continental",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=62842&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/risaro.jpg"
+    profilePhoto: "/scientists/risaro.jpg"
   },
   {
     id: 9,
@@ -108,7 +108,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia caracoles de profundidad, enfocándose en su rol ecológico y su adaptación al ambiente abisal.",
     highlight: "Referente en gasterópodos del Atlántico Sur",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=33196&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/teso.jpg"
+    profilePhoto: "/scientists/teso.jpg"
   },
   {
     id: 10,
@@ -119,7 +119,7 @@ export const scientists: ScientistData[] = [
     description: "Su trabajo apunta a descubrir nuevas especies y comprender la evolución de caracoles que habitan zonas extremas.",
     highlight: "Especialista en caracoles abisales",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=48517&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/sanchez.jpg"
+    profilePhoto: "/scientists/sanchez.jpg"
   },
   {
     id: 11,
@@ -130,7 +130,7 @@ export const scientists: ScientistData[] = [
     description: "Analiza patrones de distribución de cangrejos y langostinos a lo largo del talud argentino.",
     highlight: "Experto en crustáceos del Mar Argentino",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=27567&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/farias.jpg"
+    profilePhoto: "/scientists/farias.jpg"
   },
   {
     id: 12,
@@ -141,7 +141,7 @@ export const scientists: ScientistData[] = [
     description: "Registra y estudia especies de rayas abisales, muchas de las cuales aparecen por primera vez en estas imágenes.",
     highlight: "Especialista en rayas de aguas profundas",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=32736&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/mabragana.jpg"
+    profilePhoto: "/scientists/mabragana.jpg"
   },
   {
     id: 13,
@@ -152,7 +152,7 @@ export const scientists: ScientistData[] = [
     description: "Colabora en la identificación de nuevas especies de rayas del talud, mediante análisis morfológicos y genéticos.",
     highlight: "Estudia evolución de rayas abisales",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=62134&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/matusevich.jpg"
+    profilePhoto: "/scientists/matusevich.jpg"
   },
   {
     id: 14,
@@ -163,7 +163,7 @@ export const scientists: ScientistData[] = [
     description: "Investiga la diversidad de pequeños crustáceos del fondo marino, fundamentales para el equilibrio del ecosistema.",
     highlight: "Especialista en isópodos bentónicos",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=51136&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pereira.png"
+    profilePhoto: "/scientists/pereira.png"
   },
   {
     id: 15,
@@ -174,7 +174,7 @@ export const scientists: ScientistData[] = [
     description: "Lidera estudios sobre pequeños crustáceos adaptados a ambientes extremos, claves en la red trófica profunda.",
     highlight: "Referente en isópodos abisales",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=23187&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/doti.jpg"
+    profilePhoto: "/scientists/doti.jpg"
   },
   {
     id: 16,
@@ -185,7 +185,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia ascidias marinas (organismos filtradores), contribuyendo al conocimiento de especies poco documentadas en profundidad.",
     highlight: "Especialista en ascidias del talud",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=34786&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/aranzamendi.jpeg"
+    profilePhoto: "/scientists/aranzamendi.jpeg"
   },
   {
     id: 17,
@@ -196,7 +196,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia cómo los residuos humanos afectan la biodiversidad abisal, incluyendo estrellas, erizos y pepinos de mar.",
     highlight: "Documenta basura marina hasta 3.900 m",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=34637&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/brogger.jpg"
+    profilePhoto: "/scientists/brogger.jpg"
   },
   {
     id: 18,
@@ -207,7 +207,7 @@ export const scientists: ScientistData[] = [
     description: "Aporta al registro y descripción de almejas y mejillones abisales, fundamentales en los ecosistemas marinos.",
     highlight: "Identifica bivalvos del fondo oceánico",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=35617&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/signorelli.jpg"
+    profilePhoto: "/scientists/signorelli.jpg"
   },
   {
     id: 19,
@@ -218,7 +218,7 @@ export const scientists: ScientistData[] = [
     description: "Integra conocimientos anatómicos, ecológicos y genéticos para entender la diversidad de invertebrados marinos.",
     highlight: "Enfoque multidisciplinario en invertebrados",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=29358&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/bigatti.jpeg"
+    profilePhoto: "/scientists/bigatti.jpeg"
   },
   {
     id: 20,
@@ -229,7 +229,7 @@ export const scientists: ScientistData[] = [
     description: "Trabaja con pequeños crustáceos de zonas frías y profundas, claves para la cadena alimentaria marina.",
     highlight: "Especialista en anfípodos australes",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=34904&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/chiesa.jpg"
+    profilePhoto: "/scientists/chiesa.jpg"
   },
   {
     id: 21,
@@ -240,7 +240,7 @@ export const scientists: ScientistData[] = [
     description: "Analiza cómo se forman los sedimentos y relieves submarinos del cañón, aportando al contexto físico del ecosistema.",
     highlight: "Estudia la geología del fondo marino",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=50766&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/bozzano.jpg"
+    profilePhoto: "/scientists/bozzano.jpg"
   },
   {
     id: 22,
@@ -251,7 +251,7 @@ export const scientists: ScientistData[] = [
     description: "Aplica técnicas moleculares para identificar especies a partir de trazas genéticas en el agua. Clave en muestreos no invasivos.",
     highlight: "Detecta biodiversidad con análisis de ADN",
     profileLink: "https://orcid.org/0000-0001-7204-9434",
-    profilePhoto: "/src/assets/scientists/herrera.jpg"
+    profilePhoto: "/scientists/herrera.jpg"
   },
   {
     id: 23,
@@ -262,7 +262,7 @@ export const scientists: ScientistData[] = [
     description: "Contribuye a la clasificación de octocorales, ampliando el conocimiento de su distribución en el talud sudoccidental.",
     highlight: "Especialista en octocorales del Atlántico Sur",
     profileLink: "https://www.linkedin.com/in/nadia-cerino-09a41563/?originalSubdomain=ar",
-    profilePhoto: "/src/assets/scientists/cerino.jpg"
+    profilePhoto: "/scientists/cerino.jpg"
   },
   {
     id: 24,
@@ -273,7 +273,7 @@ export const scientists: ScientistData[] = [
     description: "Tiene una amplia trayectoria en el estudio de la evolución y distribución de caracoles y almejas marinas.",
     highlight: "Investigador senior en malacología",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=32722&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pastorino.jpeg"
+    profilePhoto: "/scientists/pastorino.jpeg"
   },
   {
     id: 25,
@@ -284,7 +284,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia gusanos planos marinos, un grupo poco explorado que cumple funciones clave en los sedimentos.",
     highlight: "Especialista en turbelarios marinos",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=19886&datos_academicos=yes&keywords=",
-    profilePhoto: "/src/assets/scientists/dambonerea.jpg"
+    profilePhoto: "/scientists/dambonerea.jpg"
   },
   {
     id: 26,
@@ -295,6 +295,6 @@ export const scientists: ScientistData[] = [
     description: "Busca entender cómo se conectan las comunidades del fondo marino a través de corrientes y procesos evolutivos.",
     highlight: "Estudia conectividad ecológica entre hábitats",
     profileLink: "https://directory.whoi.edu/profile/johanna-weston/",
-    profilePhoto: "/src/assets/scientists/weston.jpg"
+    profilePhoto: "/scientists/weston.jpg"
   }
 ]; 
