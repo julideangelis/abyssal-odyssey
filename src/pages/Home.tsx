@@ -124,7 +124,7 @@ const Home = () => {
             <CardContent className="p-6">
               <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.youtube.com/embed/Fa-iwwxiDr0?autoplay=1&mute=1"
+                  src="https://www.youtube.com/embed/lcM82Srz8TE?autoplay=1&mute=1"
                   title="Expedición Abisal - Transmisión en Vivo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
