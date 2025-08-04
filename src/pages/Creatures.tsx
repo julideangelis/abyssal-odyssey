@@ -1,8 +1,23 @@
 import CreatureCard from "@/components/CreatureCard";
 import { creatures } from "@/data/creatures";
+import { funfacts } from "@/data/funfacts";
 import { Badge } from "@/components/ui/badge";
+import { useState, useEffect } from "react";
 
 const Creatures = () => {
+
+  const [funfactsActual, setfunfactsActual] = useState(() => {
+    const random = Math.floor(Math.random() * funfacts.length);
+    return funfacts[random];
+  });
+
+  useEffect(() => {
+    if (funfacts.length > 0) {
+      const random = Math.floor(Math.random() * funfacts.length);
+      setfunfactsActual(funfacts[random]);
+    }
+  }, []);
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-ocean-abyss via-ocean-deep to-background py-12">
       <div className="container mx-auto px-4">
@@ -33,9 +48,7 @@ const Creatures = () => {
               ¿Sabías que...?
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Estos apodos nacieron del ingenio popular y reflejan el asombro que generó la transmisión en vivo. 
-              Por ejemplo, la <strong>"estrella culona"</strong> se convirtió en un emblema no oficial de la misión 
-              y fue declarada humorísticamente "patrimonio nacional" por usuarios en redes sociales.
+              {funfactsActual.text}
             </p>
           </div>
         </div>
