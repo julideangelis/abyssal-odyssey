@@ -19,7 +19,7 @@ const Scientists = () => {
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Conoce a los científicos argentinos y expertos internacionales que hacen posible esta expedición histórica. 
-            Un equipo multidisciplinario de más de 30 investigadores del CONICET trabajando codo a codo con el Schmidt Ocean Institute.
+            Un equipo multidisciplinario de más de 30 investigadores del CONICET y otros institutos de investigación trabajando codo a codo con el Schmidt Ocean Institute.
           </p>
         </div>
 
