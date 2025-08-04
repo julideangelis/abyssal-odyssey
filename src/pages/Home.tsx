@@ -83,7 +83,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <a 
-              href="https://www.youtube.com/watch?v=Fa-iwwxiDr0" 
+              href="https://www.youtube.com/watch?v=lcM82Srz8TE" 
               target="_blank" 
               rel="noopener noreferrer"
             >
