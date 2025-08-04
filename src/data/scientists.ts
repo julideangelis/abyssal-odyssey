@@ -20,7 +20,7 @@ export const scientists: ScientistData[] = [
     description: "Lidera la expedición Talud Continental IV. Especialista en corales de profundidad y hábitats bentónicos vulnerables del Atlántico Sur.",
     highlight: "Coordinador general del equipo científico en la campaña 2025",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=23784&datos_academicos=yes",
-    profilePhoto: "/scientists/lauretta.jpeg"
+    profilePhoto: "/scientists/Lauretta.jpeg"
   },
   {
     id: 2,
