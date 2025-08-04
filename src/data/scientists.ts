@@ -163,7 +163,7 @@ export const scientists: ScientistData[] = [
     description: "Investiga la diversidad de pequeños crustáceos del fondo marino, fundamentales para el equilibrio del ecosistema.",
     highlight: "Especialista en isópodos bentónicos",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=51136&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pereira.jpg"
+    profilePhoto: "/src/assets/scientists/pereira.png"
   },
   {
     id: 15,
@@ -185,7 +185,7 @@ export const scientists: ScientistData[] = [
     description: "Estudia ascidias marinas (organismos filtradores), contribuyendo al conocimiento de especies poco documentadas en profundidad.",
     highlight: "Especialista en ascidias del talud",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=34786&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/aranzamendi.jpg"
+    profilePhoto: "/src/assets/scientists/aranzamendi.jpeg"
   },
   {
     id: 17,
@@ -218,7 +218,7 @@ export const scientists: ScientistData[] = [
     description: "Integra conocimientos anatómicos, ecológicos y genéticos para entender la diversidad de invertebrados marinos.",
     highlight: "Enfoque multidisciplinario en invertebrados",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=29358&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/bigatti.jpg"
+    profilePhoto: "/src/assets/scientists/bigatti.jpeg"
   },
   {
     id: 20,
@@ -273,7 +273,7 @@ export const scientists: ScientistData[] = [
     description: "Tiene una amplia trayectoria en el estudio de la evolución y distribución de caracoles y almejas marinas.",
     highlight: "Investigador senior en malacología",
     profileLink: "https://www.conicet.gov.ar/new_scp/detalle.php?id=32722&datos_academicos=yes",
-    profilePhoto: "/src/assets/scientists/pastorino.jpg"
+    profilePhoto: "/src/assets/scientists/pastorino.jpeg"
   },
   {
     id: 25,
