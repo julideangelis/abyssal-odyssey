@@ -9,82 +9,82 @@ const Home = () => {
     <div className="min-h-screen relative overflow-hidden">
       {/* Ocean Deep Background with progressive depth */}
       <div className="absolute inset-0 bg-gradient-to-b from-ocean-surface/20 via-ocean-shallow/40 via-ocean-medium/60 via-ocean-deep to-ocean-abyss" />
-      
+
       {/* Progressive depth darkening overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-ocean-deep/30 via-ocean-abyss/50 to-background" />
-      
+
       {/* Enhanced underwater bubbles animation */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Large bubbles */}
-        <div className="absolute top-10 left-10 w-4 h-4 bg-ocean-surface/60 rounded-full animate-bubble" style={{animationDelay: "0s", animationDuration: "8s"}} />
-        <div className="absolute top-20 right-20 w-3 h-3 bg-ocean-shallow/50 rounded-full animate-bubble" style={{animationDelay: "2s", animationDuration: "10s"}} />
-        <div className="absolute top-40 left-1/4 w-5 h-5 bg-primary/30 rounded-full animate-bubble" style={{animationDelay: "4s", animationDuration: "12s"}} />
-        <div className="absolute top-60 right-1/3 w-2 h-2 bg-accent/40 rounded-full animate-bubble" style={{animationDelay: "6s", animationDuration: "9s"}} />
-        <div className="absolute bottom-40 left-1/2 w-3 h-3 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "1s", animationDuration: "11s"}} />
-        
+        <div className="absolute top-10 left-10 w-4 h-4 bg-ocean-surface/60 rounded-full animate-bubble" style={{ animationDelay: "0s", animationDuration: "8s" }} />
+        <div className="absolute top-20 right-20 w-3 h-3 bg-ocean-shallow/50 rounded-full animate-bubble" style={{ animationDelay: "2s", animationDuration: "10s" }} />
+        <div className="absolute top-40 left-1/4 w-5 h-5 bg-primary/30 rounded-full animate-bubble" style={{ animationDelay: "4s", animationDuration: "12s" }} />
+        <div className="absolute top-60 right-1/3 w-2 h-2 bg-accent/40 rounded-full animate-bubble" style={{ animationDelay: "6s", animationDuration: "9s" }} />
+        <div className="absolute bottom-40 left-1/2 w-3 h-3 bg-ocean-surface/40 rounded-full animate-bubble" style={{ animationDelay: "1s", animationDuration: "11s" }} />
+
         {/* Medium bubbles */}
-        <div className="absolute top-32 left-1/3 w-2 h-2 bg-ocean-surface/40 rounded-full animate-bubble" style={{animationDelay: "3s", animationDuration: "7s"}} />
-        <div className="absolute top-48 right-1/4 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{animationDelay: "5s", animationDuration: "9s"}} />
-        <div className="absolute top-80 left-3/4 w-2 h-2 bg-accent/35 rounded-full animate-bubble" style={{animationDelay: "7s", animationDuration: "8s"}} />
-        <div className="absolute bottom-60 right-1/2 w-4 h-4 bg-ocean-shallow/30 rounded-full animate-bubble" style={{animationDelay: "2.5s", animationDuration: "10s"}} />
-        
+        <div className="absolute top-32 left-1/3 w-2 h-2 bg-ocean-surface/40 rounded-full animate-bubble" style={{ animationDelay: "3s", animationDuration: "7s" }} />
+        <div className="absolute top-48 right-1/4 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{ animationDelay: "5s", animationDuration: "9s" }} />
+        <div className="absolute top-80 left-3/4 w-2 h-2 bg-accent/35 rounded-full animate-bubble" style={{ animationDelay: "7s", animationDuration: "8s" }} />
+        <div className="absolute bottom-60 right-1/2 w-4 h-4 bg-ocean-shallow/30 rounded-full animate-bubble" style={{ animationDelay: "2.5s", animationDuration: "10s" }} />
+
         {/* Small bubbles */}
-        <div className="absolute top-16 left-1/5 w-1 h-1 bg-ocean-surface/30 rounded-full animate-bubble" style={{animationDelay: "1.5s", animationDuration: "6s"}} />
-        <div className="absolute top-36 right-1/5 w-1.5 h-1.5 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "4.5s", animationDuration: "7s"}} />
-        <div className="absolute top-56 left-2/3 w-1 h-1 bg-accent/25 rounded-full animate-bubble" style={{animationDelay: "6.5s", animationDuration: "5s"}} />
-        <div className="absolute top-72 right-3/4 w-2 h-2 bg-ocean-shallow/20 rounded-full animate-bubble" style={{animationDelay: "8s", animationDuration: "9s"}} />
-        <div className="absolute bottom-32 left-1/6 w-1 h-1 bg-ocean-surface/25 rounded-full animate-bubble" style={{animationDelay: "3.5s", animationDuration: "6s"}} />
-        <div className="absolute bottom-48 right-1/6 w-1.5 h-1.5 bg-primary/15 rounded-full animate-bubble" style={{animationDelay: "5.5s", animationDuration: "8s"}} />
-        
+        <div className="absolute top-16 left-1/5 w-1 h-1 bg-ocean-surface/30 rounded-full animate-bubble" style={{ animationDelay: "1.5s", animationDuration: "6s" }} />
+        <div className="absolute top-36 right-1/5 w-1.5 h-1.5 bg-primary/20 rounded-full animate-bubble" style={{ animationDelay: "4.5s", animationDuration: "7s" }} />
+        <div className="absolute top-56 left-2/3 w-1 h-1 bg-accent/25 rounded-full animate-bubble" style={{ animationDelay: "6.5s", animationDuration: "5s" }} />
+        <div className="absolute top-72 right-3/4 w-2 h-2 bg-ocean-shallow/20 rounded-full animate-bubble" style={{ animationDelay: "8s", animationDuration: "9s" }} />
+        <div className="absolute bottom-32 left-1/6 w-1 h-1 bg-ocean-surface/25 rounded-full animate-bubble" style={{ animationDelay: "3.5s", animationDuration: "6s" }} />
+        <div className="absolute bottom-48 right-1/6 w-1.5 h-1.5 bg-primary/15 rounded-full animate-bubble" style={{ animationDelay: "5.5s", animationDuration: "8s" }} />
+
         {/* Micro bubbles for atmosphere */}
-        <div className="absolute top-24 left-1/8 w-0.5 h-0.5 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "2.2s", animationDuration: "4s"}} />
-        <div className="absolute top-44 right-1/8 w-0.5 h-0.5 bg-accent/15 rounded-full animate-bubble" style={{animationDelay: "4.8s", animationDuration: "5s"}} />
-        <div className="absolute top-64 left-5/6 w-1 h-1 bg-primary/10 rounded-full animate-bubble" style={{animationDelay: "6.2s", animationDuration: "7s"}} />
-        <div className="absolute bottom-72 right-5/6 w-0.5 h-0.5 bg-ocean-shallow/15 rounded-full animate-bubble" style={{animationDelay: "7.8s", animationDuration: "6s"}} />
-        
+        <div className="absolute top-24 left-1/8 w-0.5 h-0.5 bg-ocean-surface/20 rounded-full animate-bubble" style={{ animationDelay: "2.2s", animationDuration: "4s" }} />
+        <div className="absolute top-44 right-1/8 w-0.5 h-0.5 bg-accent/15 rounded-full animate-bubble" style={{ animationDelay: "4.8s", animationDuration: "5s" }} />
+        <div className="absolute top-64 left-5/6 w-1 h-1 bg-primary/10 rounded-full animate-bubble" style={{ animationDelay: "6.2s", animationDuration: "7s" }} />
+        <div className="absolute bottom-72 right-5/6 w-0.5 h-0.5 bg-ocean-shallow/15 rounded-full animate-bubble" style={{ animationDelay: "7.8s", animationDuration: "6s" }} />
+
         {/* More bubbles throughout the page */}
-        <div className="absolute top-96 left-1/7 w-2 h-2 bg-ocean-surface/30 rounded-full animate-bubble" style={{animationDelay: "9s", animationDuration: "10s"}} />
-        <div className="absolute top-[30rem] right-1/7 w-1 h-1 bg-accent/20 rounded-full animate-bubble" style={{animationDelay: "11s", animationDuration: "8s"}} />
-        <div className="absolute top-[35rem] left-3/5 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{animationDelay: "13s", animationDuration: "12s"}} />
-        <div className="absolute top-[40rem] right-2/5 w-1.5 h-1.5 bg-ocean-shallow/25 rounded-full animate-bubble" style={{animationDelay: "15s", animationDuration: "9s"}} />
-        <div className="absolute top-[45rem] left-1/2 w-2 h-2 bg-accent/30 rounded-full animate-bubble" style={{animationDelay: "17s", animationDuration: "11s"}} />
-        <div className="absolute top-[50rem] right-1/3 w-1 h-1 bg-ocean-surface/20 rounded-full animate-bubble" style={{animationDelay: "19s", animationDuration: "7s"}} />
-        <div className="absolute top-[55rem] left-2/5 w-4 h-4 bg-primary/20 rounded-full animate-bubble" style={{animationDelay: "21s", animationDuration: "13s"}} />
-        <div className="absolute bottom-16 right-1/4 w-2 h-2 bg-accent/25 rounded-full animate-bubble" style={{animationDelay: "23s", animationDuration: "10s"}} />
-        <div className="absolute bottom-8 left-3/4 w-1 h-1 bg-ocean-shallow/20 rounded-full animate-bubble" style={{animationDelay: "25s", animationDuration: "8s"}} />
+        <div className="absolute top-96 left-1/7 w-2 h-2 bg-ocean-surface/30 rounded-full animate-bubble" style={{ animationDelay: "9s", animationDuration: "10s" }} />
+        <div className="absolute top-[30rem] right-1/7 w-1 h-1 bg-accent/20 rounded-full animate-bubble" style={{ animationDelay: "11s", animationDuration: "8s" }} />
+        <div className="absolute top-[35rem] left-3/5 w-3 h-3 bg-primary/25 rounded-full animate-bubble" style={{ animationDelay: "13s", animationDuration: "12s" }} />
+        <div className="absolute top-[40rem] right-2/5 w-1.5 h-1.5 bg-ocean-shallow/25 rounded-full animate-bubble" style={{ animationDelay: "15s", animationDuration: "9s" }} />
+        <div className="absolute top-[45rem] left-1/2 w-2 h-2 bg-accent/30 rounded-full animate-bubble" style={{ animationDelay: "17s", animationDuration: "11s" }} />
+        <div className="absolute top-[50rem] right-1/3 w-1 h-1 bg-ocean-surface/20 rounded-full animate-bubble" style={{ animationDelay: "19s", animationDuration: "7s" }} />
+        <div className="absolute top-[55rem] left-2/5 w-4 h-4 bg-primary/20 rounded-full animate-bubble" style={{ animationDelay: "21s", animationDuration: "13s" }} />
+        <div className="absolute bottom-16 right-1/4 w-2 h-2 bg-accent/25 rounded-full animate-bubble" style={{ animationDelay: "23s", animationDuration: "10s" }} />
+        <div className="absolute bottom-8 left-3/4 w-1 h-1 bg-ocean-shallow/20 rounded-full animate-bubble" style={{ animationDelay: "25s", animationDuration: "8s" }} />
       </div>
-      
+
       {/* Depth lines simulation */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-surface to-transparent" />
         <div className="absolute top-2/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-shallow to-transparent" />
         <div className="absolute top-3/4 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-medium to-transparent" />
       </div>
-      
+
       {/* Hero Section */}
       <section className="relative py-20 px-4 z-10">
         <div className="container mx-auto text-center">
           <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">
             🔴 EN VIVO AHORA
           </Badge>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-ocean-surface via-primary to-accent bg-clip-text text-transparent animate-shimmer">
             Expedición Abisal
           </h1>
-          
+
           <h2 className="text-2xl md:text-3xl text-ocean-shallow mb-6">
             Underwater Oases of Mar del Plata Canyon
           </h2>
-          
+
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed">
-            Descubre las criaturas más fascinantes del océano profundo argentino. 
+            Descubre las criaturas más fascinantes del océano profundo argentino.
             Una expedición histórica que explora el Cañón de Mar del Plata hasta 3,900 metros de profundidad.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <a 
-              href="https://www.youtube.com/watch?v=lcM82Srz8TE" 
-              target="_blank" 
+            <a
+              href="https://www.youtube.com/watch?v=8uL0zE_KwHs"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
@@ -102,10 +102,10 @@ const Home = () => {
         </div>
 
         {/* Research station floating elements */}
-        <div className="absolute top-1/4 left-10 text-2xl opacity-60" style={{animationDelay: "0s"}}>🔬</div>
-        <div className="absolute top-1/3 right-16 text-3xl opacity-50" style={{animationDelay: "1s"}}>📊</div>
-        <div className="absolute bottom-1/4 left-1/4 text-2xl opacity-60" style={{animationDelay: "2s"}}>🧪</div>
-        <div className="absolute bottom-1/3 right-1/4 text-3xl opacity-50" style={{animationDelay: "3s"}}>📡</div>
+        <div className="absolute top-1/4 left-10 text-2xl opacity-60" style={{ animationDelay: "0s" }}>🔬</div>
+        <div className="absolute top-1/3 right-16 text-3xl opacity-50" style={{ animationDelay: "1s" }}>📊</div>
+        <div className="absolute bottom-1/4 left-1/4 text-2xl opacity-60" style={{ animationDelay: "2s" }}>🧪</div>
+        <div className="absolute bottom-1/3 right-1/4 text-3xl opacity-50" style={{ animationDelay: "3s" }}>📡</div>
       </section>
 
       {/* Live Stream Embed */}
@@ -119,12 +119,12 @@ const Home = () => {
               Sumérgete en tiempo real a las profundidades del Mar Argentino
             </p>
           </div>
-          
+
           <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm border-ocean-deep">
             <CardContent className="p-6">
               <div className="aspect-video rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.youtube.com/embed/lcM82Srz8TE?autoplay=1&mute=1"
+                  src="https://www.youtube.com/embed/8uL0zE_KwHs?autoplay=1&mute=1"
                   title="Expedición Abisal - Transmisión en Vivo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -148,7 +148,7 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">
             Explora la Expedición
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link to="/creatures">
               <Card className="group cursor-pointer bg-card/60 backdrop-blur-sm border-ocean-deep hover:border-primary/50 transition-all duration-300">
