@@ -144,7 +144,7 @@ export const creatures: CreatureData[] = [
     depth: "3,682 m",
     description: "Caracol gigante que vive en el fondo del océano. Suele alimentarse de bivalvos. El ejemplar encontrado medía mas de 10 centimetros.",
     funFact: "En la transmision parece que lo encontraron comiendo. Lo extrayeron con la garra y casi no entra.",
-    imageUrl: "/src/assets/caracol-gigante.png",
+    imageUrl: "/creatures/caracol-gigante.png",
     accentColor: "coral"
   }
 ];
